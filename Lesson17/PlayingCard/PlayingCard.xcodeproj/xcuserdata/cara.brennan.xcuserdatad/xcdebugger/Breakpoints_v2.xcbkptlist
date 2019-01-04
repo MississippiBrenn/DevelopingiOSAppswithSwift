@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayingCard/PlayingCardView.swift"
+            timestampString = "557785536.935529"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "PlayingCardView"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayingCard/ViewController.swift"
+            timestampString = "557950999.869036"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayingCard/ViewController.swift"
+            timestampString = "557950999.869418"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayingCard/CMMotionManager+shared.swift"
+            timestampString = "558054549.846687"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "CMMotionManager"
+            landmarkType = "21">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_41B16FAA046DD08F947F22BF6730FF19_func0"
+                  moduleName = "PlayingCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cara.brennan/Developer/DevelopiOSDirectory/Lesson17/PlayingCard/PlayingCard/CMMotionManager+shared.swift"
+                  timestampString = "557949935.06269"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in PlayingCard):__ObjC.CMMotionManager.shared.unsafeMutableAddressor : __ObjC.CMMotionManager"
+                  moduleName = "PlayingCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cara.brennan/Developer/DevelopiOSDirectory/Lesson17/PlayingCard/PlayingCard/CMMotionManager+shared.swift"
+                  timestampString = "557949935.0655611"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static (extension in PlayingCard):__ObjC.CMMotionManager.shared.getter : __ObjC.CMMotionManager"
+                  moduleName = "PlayingCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cara.brennan/Developer/DevelopiOSDirectory/Lesson17/PlayingCard/PlayingCard/CMMotionManager+shared.swift"
+                  timestampString = "557949935.06845"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static (extension in PlayingCard):__ObjC.CMMotionManager.shared.setter : __ObjC.CMMotionManager"
+                  moduleName = "PlayingCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cara.brennan/Developer/DevelopiOSDirectory/Lesson17/PlayingCard/PlayingCard/CMMotionManager+shared.swift"
+                  timestampString = "557949935.07091"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
