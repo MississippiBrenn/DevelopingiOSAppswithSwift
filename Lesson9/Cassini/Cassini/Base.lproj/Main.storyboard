@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Image View Controller-->
+        <scene sceneID="8qD-Wu-iaA">
+            <objects>
+                <viewController id="mv7-wV-dmN" customClass="ImageViewController" customModule="Cassini" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2gG-7D-pVY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Mcw-uH-aFA">
+                                <rect key="frame" x="169" y="388" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4zh-IX-nib">
+                                <rect key="frame" x="0.0" y="27" width="375" height="812"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4zh-IX-nib" firstAttribute="top" secondItem="2gG-7D-pVY" secondAttribute="top" id="2o9-hz-a80"/>
+                            <constraint firstItem="4zh-IX-nib" firstAttribute="leading" secondItem="2gG-7D-pVY" secondAttribute="leading" id="52Y-QA-khG"/>
+                            <constraint firstAttribute="bottom" secondItem="4zh-IX-nib" secondAttribute="bottom" id="Eu4-8p-C8s"/>
+                            <constraint firstItem="4zh-IX-nib" firstAttribute="trailing" secondItem="2gG-7D-pVY" secondAttribute="trailing" id="Q8P-4X-omb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="U9g-zn-snc"/>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="4zh-IX-nib" id="RHm-rr-w1Y"/>
+                        <outlet property="spinner" destination="Mcw-uH-aFA" id="AEa-o6-biW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qmT-0N-gHO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="17" y="290"/>
+        </scene>
+    </scenes>
+</document>
